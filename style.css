@@ -1,0 +1,116 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    position: relative;
+    width: 728px;
+    height: 90px;
+    padding: 0px;
+    overflow: hidden;
+}
+.banner {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    background-color: #222222;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.avatar {
+    position: absolute;
+    left: 5px;
+    top: 5px
+}
+#image {
+    height: 80px;
+}
+.main-text {
+    overflow: hidden;
+    width: calc (100% - 110px);
+    position: absolute;
+    left: 110px;
+    top: 50%;
+    transform: translateY(-50%);
+    text-align: center;
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+}
+.ico {
+    position: absolute;
+    font-size: 4em;
+    font-weight: bold;
+    color: white;
+    left: 120px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.start {
+    position: absolute;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: orange;
+    left: 350px;
+    top:50%;
+    transform: translateY(-100%);
+}
+.end {
+    position: absolute;
+    min-width: 270px;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: orange;
+    left: 280px;
+    top:50%;
+    transform: translateY(0%);
+}
+.lend {
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    left: 120px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.lendStart {
+    position: absolute;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: orange;
+    left: 350px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.profit {
+    position: absolute;
+    font-size: 1.7em;
+    font-weight: bold;
+    color: orange;
+    left: 350px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.referral {
+    width: 570px;
+    position: absolute;
+    font-size: 2.5em;
+    font-weight: bold;
+    color: orange;
+    left: 150px;
+    top:50%;
+    transform: translateY(-50%);
+}
+.join {
+    width: 470px;
+    position: absolute;
+    font-size: 3.5em;
+    font-weight: bold;
+    color: white;
+    left: 200px;
+    top:50%;
+    transform: translateY(-50%);
+}
